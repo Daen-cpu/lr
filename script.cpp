@@ -10,7 +10,7 @@ using namespace std;
 int wordcount_a_started(const vector<string>& words) {
     int count = 0;
     for (const auto& word : words) {
-        if (word[0] == 'a' || word[0] == 'A') {
+        if (word[0] == 'a' or word[0] == 'A') {
             count++;
         }
     }
